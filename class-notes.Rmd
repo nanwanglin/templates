@@ -1,0 +1,67 @@
+---
+title: "LING 416 Speech on the brain"
+author: "Nan Wang"
+date: "Spring 2026"
+
+header-includes:
+ - \usepackage{color}
+ - \usepackage{framed}
+ - \setlength{\fboxsep}{.8em}
+ 
+output:
+  pdf_document:
+    toc: true
+  html_document:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  results = "markup", warning = FALSE, cache = TRUE,
+  fig.align = "center", fig.width = 6.5)
+```
+
+```{r libraries, include = F}
+
+```
+
+# This document
+This document hosts notes from LING416, Speech on the brain. 
+
+Office hour: Friday Carlson 2nd floor 9-11am
+
+
+# General takeaways
+
+Todo: course requirements, grading, assignments, exams, etc.
+
+
+
+# Lecture 3 (1/28)
+
+Language family include Indo-European (English, German, French), Sino-Tibetan (Mandarin), Niger-Congo, Afro-Asiatic, etc.
+
+How to decide whether two languages come from the same family? (1) sound correspondences (2) shared morphology (3) shared core vocabulary
+
+Regarding language adaptation: 
+
+Phonetics: 
+
+- how to describe consonants: place, manner, voicing. Fricatives include /f/, /v/, /s/, /z/, /sh/, etc; stops include /p/, /t/, /k/; 
+
+- how to describe vowels: height, backness, roundness
+
+
+
+
+
+IPA charts: https://www.seeingspeech.ac.uk/ipa-charts/ 
+
+
+
+
+Q{formallization of linguistics system through maths}
+
+
+
+
