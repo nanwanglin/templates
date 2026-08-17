@@ -1,0 +1,57 @@
+---
+title: "On-clear-writing-and-thinking"
+author: "Nan"
+format:
+  pdf:
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    include-in-header:
+      text: |
+        \usepackage{underscore}
+        \newcommand{\todo}[1]{\textbf{\color{red}[TODO: #1]}}
+        \newcommand{\todoflorian}[1]{\textbf{\color{blue}[TODO florian: #1]}}
+fontsize: 10pt
+---
+
+This document lists out structures and principles for clear thinking and writing for experiment reports, with the aid of AI. It can also be used as a checklist at the last minute.
+
+The document is generated from <Link_to_github_repository>.
+
+
+# General principles
+
+- The experiment report should be organized around key findings or insights instead of a laundry list of figures. 
+- Name section heads as questions as much as possible.
+- Don't copy paste AI-generated codes or texts *without understanding them*. Doing so will confuse the readers and yourself. 
+
+# Writing
+
+- Be verbose and write with max clarity and informativeness: e.g. specifying prior or posterior of what.
+- Prioritize conceptual understanding over code description. 
+- Use full sentences. Avoid grammatical errors, spelling errors and use math notation. 
+- Avoid informal jargons that are only accessible to oneself.
+
+# Plotting
+
+- Use consistent coloring and theming, case.
+- Write stand-alone figure captions.
+- Keep raw information as much as possible in the plot.
+- Remove figure junk: only keep important and necessary information.
+- Plot uncertainty around estimated parameters as much as possible.
+- Plot baseline as much as possible.
+
+
+# Coding with AI
+
+- Think clearly about the key behavioral signature, hypotheses and necessary sanity checks (e.g. visualization of parameters) before going to the code. 
+- Work on code outlines first.
+- In the beginning, feed AI with simplified versions of code and ask it to verify and improve it. 
+- Afterwards, hand over implementation to AI. 
+
+
+
+
+
+
+
