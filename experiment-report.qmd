@@ -14,27 +14,31 @@ format:
 fontsize: 10pt
 ---
 
-This document lists out structures and principles for clear thinking and writing for experiment reports, with the aid of AI. It can also be used as a checklist at the last minute.
+This document lists out structures and principles for clear thinking and writing for experiment reports, with the aid of AI. Clear thinking is an ability that can be acquired through disciplined practices of writing. 
 
-The document is generated from <Link_to_github_repository>.
+The document is generated from https://github.com/nanwanglin/templates/blob/master/experiment-report.qmd.
 
 
 # General principles
 
-- The experiment report should be organized around key findings or insights instead of a laundry list of figures. 
+- An experiment report should be organized around key insights instead of a laundry list of figures. 
 - Name section heads as questions as much as possible.
-- Don't copy paste AI-generated codes or texts *without understanding them*. Doing so will confuse the readers and yourself. 
+- Don't copy paste AI-generated texts or codes *without understanding them*. Doing so will confuse the readers and yourself. 
 
 # Writing
 
-- Be verbose and write with max clarity and informativeness: e.g. specifying prior or posterior of what.
+- Write with max informativeness: e.g. specifying prior or posterior of what.
+- Write with max clarity: 
+  - Structured information is key to clarity. When describing a figure, start from  the general goal of the figure. Then describe the axis and lines.
+  - Avoid informal jargon that is only accessible to oneself. Provide detailed information if you use such jargon. 
+- Write with correct grammar: 
+  - Use full sentences. Avoid grammatical errors. 
+  - Avoid spelling errors and use math notation correctly.  
 - Prioritize conceptual understanding over code description. 
-- Use full sentences. Avoid grammatical errors, spelling errors and use math notation. 
-- Avoid informal jargons that are only accessible to oneself.
 
 # Plotting
 
-- Use consistent coloring and theming, case.
+- Use consistent coloring, themrd, case for variables or conditions throughout a document.
 - Write stand-alone figure captions.
 - Keep raw information as much as possible in the plot.
 - Remove figure junk: only keep important and necessary information.
