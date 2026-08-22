@@ -1,5 +1,5 @@
 ---
-title: "On-clear-writing-and-thinking"
+title: "A young dementia sufferer's guide to better thinking and communication"
 author: "Nan"
 format:
   pdf:
@@ -12,39 +12,44 @@ format:
         \newcommand{\todo}[1]{\textbf{\color{red}[TODO: #1]}}
         \newcommand{\todoflorian}[1]{\textbf{\color{blue}[TODO florian: #1]}}
 fontsize: 10pt
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
-This document lists out structures and principles for clear thinking and writing for experiment reports, with the aid of AI. Clear thinking is an ability that can be acquired through disciplined practices of writing. 
+# Preface
 
-The document is generated from https://github.com/nanwanglin/templates/blob/master/experiment-report.qmd.
+More and more young people are suffering from young-onset dementia these days. They leave keys dangling in the door, mistake condolence cards for birthday cards, and forget ninety percent of instructions from their superiors. Such symptoms leave them quietly estranged from friends, blamed by supervisors, and open them to the risk of losing jobs even. As a dementia sufferer herself, the author decided to write a guide sharing her personal experience of navigating these challenges and finding a way through. The whole document is generated from https://github.com/nanwanglin/templates/blob/master/experiment-report.qmd, and is divided into five chapters, covering topics from writing, coding, communication, etc.
 
+The general principles are:
 
-# General principles
-
-- An experiment report should be organized around key insights instead of a laundry list of figures. 
+- An experiment report should be organized around key findings instead of a laundry list of figures. 
 - Name section heads as questions as much as possible.
-- Don't copy paste AI-generated texts or codes *without understanding them*. Doing so will confuse the readers and yourself. 
+- Pause more before and after implementation. 
+  - Pause before implementation to think clearly about: (1) what is the goal, (2) what are the steps necessary to reach the goal, (3) what is the gist of the feedback, what is the motivation behind the suggested action, (3) what are the most important components, (4) what are my tentative implementation plans and whether AI have any suggestions based on it
+  - Pause after implementation to (1) double check whether writing is aligned with the principles listed out in the document, (2) how to summarize the observed patterns, what are the underlying factors, (3) what should I do next to further explore them, (4) what help do I need from others; 
+- Limit simple copy paste of AI-generated texts or codes *without understanding them*. Doing so will confuse the readers and yourself. 
 
 # Writing
 
 - Write with max informativeness: e.g. specifying prior or posterior of what.
 - Write with max clarity: 
-  - Structured information is key to clarity. When describing a figure, start from  the general goal of the figure. Then describe the axis and lines.
+  - Structured information is key to clarity. Put yourself in the readers' shoes and build up the information from what they already know. When describing a figure, start from  the general goal of the figure, and then describe the axis and lines.
+  - Prioritize conceptual understanding over code description.
   - Avoid informal jargon that is only accessible to oneself. Provide detailed information if you use such jargon. 
 - Write with correct grammar: 
   - Use full sentences. Avoid grammatical errors. 
   - Avoid spelling errors and use math notation correctly.  
-- Prioritize conceptual understanding over code description. 
 
 # Plotting
 
-- Use consistent coloring, themrd, case for variables or conditions throughout a document.
+- Use consistent coloring, theme, case for variables or conditions throughout a document.
 - Write stand-alone figure captions.
 - Keep raw information as much as possible in the plot.
-- Remove figure junk: only keep important and necessary information.
+- Remove figure junk: only keep relevant and necessary information.
 - Plot uncertainty around estimated parameters as much as possible.
 - Plot baseline as much as possible.
-
 
 # Coding with AI
 
@@ -53,9 +58,25 @@ The document is generated from https://github.com/nanwanglin/templates/blob/mast
 - In the beginning, feed AI with simplified versions of code and ask it to verify and improve it. 
 - Afterwards, hand over implementation to AI. 
 
+# Steps for processing feedback
+
+- Put feedback into a single document.
+- Read through the feedback and form a general impression of most important action items.
+- Implement feedback together with AI.
+- Think through the 
+- Double check whether all feedback is implemented. Write email.
 
 
+# Reduce information leakage
+
+- Think more about the motivation behind the suggested action item.
+- Watch out for a kind of vague, partial understanding: "this feedback or AI suggestion seems to make sense though I myself can't generate it from my own mind".
+- Prepare my mind and make sure it's in a clear state before any meeting. 
+- Seek more written feedback than oral feedback. 
 
 
+```{r fig-example, include=FALSE, fig.cap="Trajectory of /s/ responses of all participants and all talkers. Error bars are bootstrapped 95% confidence intervals across participants."}
+
+```
 
 
