@@ -1,5 +1,5 @@
 ---
-title: "A young dementia sufferer's guide to better thinking and communication"
+title: "A guide to better writing and reporting"
 author: "Nan"
 format:
   pdf:
