@@ -43,7 +43,7 @@ Good writing in a report is not decoration; it is the shortest path between what
 - Write with maximum clarity.
   - Structure is the main lever for clarity. Put yourself in the reader's position and build each idea up from what they already know before introducing what they do not. When describing a figure, start from its overall purpose, then name the axes, and only then walk through the lines or points — never the reverse.
   - Prioritize conceptual understanding over code description. Readers need to know *what* an analysis does and *why*, not a narration of the function calls that produced it. Keep implementation detail in the code or an appendix.
-  - Avoid private jargon — informal shorthand that only makes sense to me. If a term is genuinely useful, define it once, plainly, and then use it consistently.
+  - Avoid private jargon, informal shorthand that only makes sense to me. If a term is genuinely useful, define it once, plainly, and then use it consistently.
 - Write with correct grammar and notation.
   - Use complete sentences and fix grammatical errors; a sentence the reader has to reparse costs them attention that belongs to the science.
   - Avoid spelling errors, and use mathematical notation precisely: match symbols to their definitions, keep subscripts consistent, and do not reuse one letter for two quantities.
@@ -52,7 +52,7 @@ Good writing in a report is not decoration; it is the shortest path between what
 
 A figure is an argument made visually. It should make the intended comparison easy and every other comparison secondary.
 
-- Use consistent coloring, theme, and capitalization for the same variables or conditions throughout the document, so that a color or label learned in one figure carries its meaning into the next.
+- Use consistent coloring, theme, and capitalization for the same variables or conditions throughout the document.
 - Write stand-alone captions. A caption should let a reader understand the figure without hunting through the surrounding text: state what is plotted, on what data, and what the reader should take away.
 - Keep as much of the raw information as the plot can bear — individual points, distributions, or trajectories — rather than collapsing everything to a mean that hides the variation behind it.
 - Remove figure junk. Delete gridlines, legends, borders, and annotations that do not serve the comparison; each removed distraction makes the real signal easier to see.
@@ -61,16 +61,12 @@ A figure is an argument made visually. It should make the intended comparison ea
 
 # Coding with AI
 
-AI can accelerate implementation, but only after the thinking that implementation is supposed to serve has already been done. The sequence matters.
-
 - Before writing any code, think clearly about the key behavioral signature I expect, the hypotheses being tested, and the sanity checks that would catch a mistake — for instance, visualizing parameters or simulating from the model to confirm it behaves as intended.
 - Work on the code outline first: name the inputs, the transformations, and the outputs, so that the structure is decided before the syntax.
 - Early on, hand the AI a simplified version of the problem and ask it to verify and improve it. Small, checkable pieces let me confirm the logic before scale hides errors.
 - Only afterwards hand over the fuller implementation to AI — and read what comes back closely enough to explain it, so that acceleration does not become a loss of understanding.
 
 # Steps for processing feedback
-
-Feedback is only valuable if it changes the work. The goal of this process is to move from a pile of comments to a set of understood, implemented, and confirmed actions.
 
 - Collect all feedback into a single document, so that comments from different people, meetings, and channels can be seen and prioritized together.
 - Read through everything once to form a general impression before acting, and identify the few most important action items rather than starting with whatever comment is first.
