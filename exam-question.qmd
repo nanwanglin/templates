@@ -1,0 +1,131 @@
+---
+title: "COURSE Exam N"
+author: "Nan Wang"
+format:
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{underscore}
+        \newcommand{\todo}[1]{\textbf{\color{red}[TODO: #1]}}
+        \newcommand{\todoexplain}[1]{\textbf{\color{blue}[TODO florian: #1]}}
+        \usepackage{fancyhdr}
+        \fancypagestyle{namedpage}{\fancyhf{}\fancyhead[L]{COURSE Exam N}\fancyhead[R]{Nan Wang}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0.4pt}}
+        \fancypagestyle{plain}{\fancyhf{}\fancyhead[L]{COURSE Exam N}\fancyhead[R]{Nan Wang}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0.4pt}}
+        \AtBeginDocument{\pagestyle{namedpage}}
+fontsize: 12pt
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+<!--
+HOW TO USE THIS TEMPLATE
+1. Replace "COURSE Exam N" in the title and in both \fancyhead[L]{...} lines.
+2. Copy one "# Qn" block per question. Each question starts on a new page.
+3. Label sub-answers by index only (1(a), 1(b), ...); do not paste the question text.
+4. Each question should fit on about one single-spaced page (12pt).
+5. Writing checklist:
+   - Open each sub-answer with a sentence that directly answers the prompt.
+   - Keep only material that speaks to the question; no background or rambling.
+   - Base answers on lectures and assigned readings; cite slides in-text
+     (e.g., "Lecturer, slides, date") but list only published works in References.
+   - Put Greek letters and math symbols inside $...$; avoid "&", "%", "#", "_"
+     inside \todo{} or other LaTeX commands (write "and", "\%").
+   - Use colons sparingly; prefer "so", "because", or a new sentence.
+6. Review comments: \todo{revision request}   \todoexplain{question [answer]}
+   Delete all of them before submitting.
+-->
+
+{{< pagebreak >}}
+
+# Q1
+
+1(a) Lead with a one-sentence answer to the prompt. Then give the example or evidence, and end with the reasoning the prompt asks for (Author, Year).
+
+1(b) Lead with a one-sentence answer. Define key terms briefly, such as $\Delta\theta$, then describe each method or step in its own short paragraph.
+
+*Method or point one.* One to three sentences.
+
+*Method or point two.* One to three sentences.
+
+Comparison or conclusion in two to four sentences.
+
+References
+
+```{=latex}
+\begingroup\footnotesize
+```
+
+Author, A. A., & Author, B. B. (Year). Title of article. *Journal Name, Volume*(Issue), pages. https://doi.org/xxxx
+
+```{=latex}
+\endgroup
+```
+
+{{< pagebreak >}}
+
+# Q2
+
+2(a) Answer. A displayed equation, introduced with a colon:
+
+$$y(t) = \int_{-\infty}^{\infty} x(\lambda)\,h(t - \lambda)\,d\lambda$$
+
+Explain each symbol in plain words after the equation.
+
+2(b) Answer.
+
+<!-- To include a saved image (keep figures small, about 45-65% width), uncomment:
+![Stand-alone caption: what is plotted, and what the reader should take away.](figures/example.png){width="50%"}
+-->
+
+The explanation of the figure, if any.
+
+References
+
+```{=latex}
+\begingroup\footnotesize
+```
+
+Author, A. A. (Year). *Title of book* (2nd ed.). Publisher.
+
+```{=latex}
+\endgroup
+```
+
+{{< pagebreak >}}
+
+# Q3
+
+3(a) Answer. Use a compact table only when it is the clearest way to compare items:
+
+|   | Option A | Option B |
+|------------------|------------------|------------------|
+| Property 1 | ... | ... |
+| Property 2 | ... | ... |
+
+3(b) Answer, with a figure drawn by R code. Set `echo: true` in the chunk to show the code.
+
+```{r}
+#| label: fig-q3b
+#| fig-width: 6
+#| fig-height: 4.2
+#| out-width: "55%"
+#| fig-cap: "Stand-alone caption describing the expected result and what it shows."
+x <- seq(0, 10, length.out = 200)
+plot(x, pnorm(x, 5, 1), type = "l", lwd = 2, las = 1, bty = "l",
+     xlab = "Stimulus value", ylab = "Proportion of responses")
+abline(h = 0.5, lty = 3, col = "gray60")
+```
+
+References
+
+```{=latex}
+\begingroup\footnotesize
+```
+
+Author, A. A., Author, B. B., & Author, C. C. (Year). Title of article. *Journal Name, Volume*, pages.
+
+```{=latex}
+\endgroup
+```

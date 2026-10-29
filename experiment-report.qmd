@@ -11,12 +11,14 @@ format:
         \usepackage{underscore}
         \newcommand{\todo}[1]{\textbf{\color{red}[TODO: #1]}}
         \newcommand{\todoflorian}[1]{\textbf{\color{blue}[TODO florian: #1]}}
-fontsize: 10pt
+fontsize: 12pt
 execute:
   echo: false
   warning: false
   message: false
 ---
+
+\newpage
 
 # Preface
 
